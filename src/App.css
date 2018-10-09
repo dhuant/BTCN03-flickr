@@ -1,0 +1,110 @@
+.photo-list-view {
+  position: relative;
+}
+  
+.masonry {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
+.image {
+  position: absolute;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+body {
+  font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+}
+.photo-list-photo-view.awake {
+  position: absolute;
+  display: block;
+}
+.photo-list-photo-view {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-color: #fff;
+  background-size: cover;
+  display: none;
+}
+ article.light, body, body.light, div.light, footer.light, header.light, main.light, p.light, section.light {
+  color: #212124;
+  background-color: #f3f5f6;
+}
+.photo-list-photo-interaction .interaction-bar .text .title {
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  min-height: 17px;
+}
+
+.photo-list-photo-interaction .interaction-bar .text .attribution, .photo-list-photo-interaction .interaction-bar .text .title {
+  display: block;
+  margin: 2px 0 0;
+  text-shadow: 0 0 2px #000;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+}
+.photo-list-photo-interaction .interaction-bar a, .photo-list-photo-interaction .interaction-bar a:hover {
+  text-decoration: none;
+}
+
+.dark .light .fluid a, .dark .light .fluid a:hover, .fluid a, .fluid a:hover, .light .dark .light .fluid a, .light .dark .light .fluid a:hover {
+  color: #000;
+}
+.fluid a {
+  cursor: pointer;
+  text-decoration: none;
+}
+.no-outline, a:hover, div:hover, label:hover, span:hover {
+  outline-width: 0;
+}
+user agent stylesheet
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.photo-list-photo-interaction .interaction-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8px 8px;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+.photo-list-photo-interaction {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+body {
+  font-family: Proxima Nova,helvetica neue,helvetica,arial,sans-serif;
+}
+.photo-list-photo-interaction .interaction-bar .text .attribution {
+  color: antiquewhite;
+  font-size: 12px;
+  -webkit-transition: color .15s linear;
+  transition: color .15s linear;
+}
+
